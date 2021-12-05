@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "박요한"
+  },
+  "text": {
+    "more": "방향: Undirected\n노드: 출생 당시 현대 그룹 사람\n엣지는 두 종류\n어두운 초록색: 부모와 자녀 관계\n밝은 분흥색: 부부 관계",
+    "intro": "현대 그룹 사람과 그 배우자 및 자녀 관계를 연결하여 게피로 시각화하였습니다.",
+    "title": "현대 그룹 일가의 가족 관계도"
+  },
+  "legend": {
+    "edgeLabel": "부모와 자녀 관계, 부부 관계",
+    "colorLabel": "사이 중심성",
+    "nodeLabel": "현대 그룹 사람"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
